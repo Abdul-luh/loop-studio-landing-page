@@ -43,7 +43,7 @@ $VeryDarkGray: hsl(0, 0%, 41%);
 }
 
 h1 {
-	font-size: 3.75rem;
+	font-size: 3.5rem;
 	font-weight: 100;
 }
 h2 {
@@ -71,12 +71,12 @@ body {
 }
 
 .left {
-	left: -100vw;
+	left: -100%;
 	transition: width ease-in-out 1000ms;
 }
 .right {
 	left: 0;
-	width: 100vw;
+	width: 100%;
 	transition: width ease-in-out 1000ms;
 }
 section {
@@ -123,7 +123,7 @@ header {
 
 			height: 100vh;
 			background-color: $Black;
-			transition: width ease-in-out 500ms;
+			transition: ease-in-out 500ms;
 			.menu-head {
 				display: flex;
 				align-items: center;
@@ -173,7 +173,7 @@ header {
 		margin-right: auto;
 		.hero {
 			text-transform: uppercase;
-			padding: 2rem;
+			padding: 1rem;
 			border: 2px solid white;
 			max-width: 600px;
 		}
@@ -299,6 +299,48 @@ footer {
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
+		.one {
+			h3 {
+				padding: 0.5rem 0;
+			}
+			.navigations {
+				display: flex;
+				justify-content: space-between;
+				gap: 0.75rem;
+				padding: 0 0.5rem;
+				a {
+					display: block;
+					border-bottom: 1px solid transparent;
+					transition: ease-in-out 500ms;
+
+					&:hover {
+						border-bottom: 1px solid $White;
+						color: white;
+					}
+				}
+			}
+		}
+		.two {
+			text-align: right;
+			color: $DarkGray;
+
+			.socials {
+				display: flex;
+				justify-content: flex-end;
+				padding: 0.5rem;
+				p {
+					padding: 0.75rem;
+					margin: 0.25rem;
+					border-bottom: 1px solid transparent;
+					transition: ease-in-out 500ms;
+
+					&:hover {
+						border-bottom: 1px solid $White;
+						color: white;
+					}
+				}
+			}
+		}
 	}
 }
 
