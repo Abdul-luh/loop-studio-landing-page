@@ -324,7 +324,7 @@ footer {
 			}
 		}
 		.two {
-			text-align: right;
+			text-align: center;
 			color: $DarkGray;
 
 			.socials {
@@ -378,6 +378,9 @@ footer {
 						}
 					}
 				}
+			}
+			.two {
+				text-align: right;
 			}
 		}
 	}

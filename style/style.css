@@ -286,7 +286,7 @@ footer .content-wrap .one .navigations a:hover {
   transform: scale(1.05);
 }
 footer .content-wrap .two {
-  text-align: right;
+  text-align: center;
   color: hsl(0deg, 0%, 55%);
 }
 footer .content-wrap .two .socials {
@@ -332,6 +332,9 @@ footer .content-wrap .two .socials p:hover {
   footer .content-wrap .one .navigations a:hover {
     border-bottom: 1px solid hsl(0deg, 0%, 100%);
     color: white;
+  }
+  footer .content-wrap .two {
+    text-align: right;
   }
 }
 @media screen and (min-width: 60rem) {
